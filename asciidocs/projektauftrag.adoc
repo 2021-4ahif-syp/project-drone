@@ -1,0 +1,70 @@
+= Projektauftrag - Bal Binder Herzog
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+ifdef::backend-html5[]
+
+endif::backend-html5[]
+
+== Projekttitel
+Artificial Intelligence-unterstützte Drohnenflüge
+
+== Projektart
+Kundenprojekt
+
+== Projektorganisation
+* Projektleiter: Karan Mathias Bal
+* Projektmitglieder: Binder Paul, Herzog Nathalie
+
+== Projektauftraggeber/in
+Kapsch BusinessCom AG
+(Ansprechperson derzeit unbekannt)
+
+== Projektdauer
+von 05.10.2020 bis 24.6.2021
+
+== Ausgangssituation/Problembeschreibung:
+Eine Firma hat eine flugfähige Drohne. Zurzeit muss ein
+Mitarbeiter manuell die Drohne steuern. 
+
+== Projektgesamtziel
+Steuerung und Auswertung von Drohnenflügen mit der DJI
+Mavic Mini und dem Mobile SDK analysieren
+
+== Projektteilziele und -ergebnisse
+* Klärung der Systemarchitektur
+* Kommunikation zwischen Handy und Drohne erstellen
+
+== Projektressourcen
+=== Drohne
+* DJI Mavic Mini
+
+=== Entwicklungsumgebung
+* IntelliJ (derzeit noch nicht geklärt)
+
+=== sonstige Ressourcen
+* Mobile SDK
+* REST API
+
+
+== Wirtschaftlicher oder sonstiger Nutzen
+Eine Drohne zur Protokollierung eines Baustellenfortschritts,
+die durch eine nachgelagerte Artificial Intelligence den
+Fortschritt automatisiert erkennt und im Projektplan
+ersichtlich macht.
+
+== Projektrisiken und -unsicherheiten
+=== Hardwarerisiken
+* Die Drohne könnte abstürzen und beschädigt oder zerstört
+werden
+
+=== Softwarerisiken
+* Bugs
+
+=== Sonstiges
+* limitierte Zeit
+* limitierte Resscourcen
