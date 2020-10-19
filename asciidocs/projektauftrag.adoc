@@ -11,7 +11,7 @@ ifdef::backend-html5[]
 endif::backend-html5[]
 
 == Projekttitel
-Artificial Intelligence-unterstützte Drohnenflüge (DrohnenPiogads)
+Artificial Intelligence-unterstützte Drohnenflüge (Icarus)
 
 == Projektart
 Kundenprojekt
