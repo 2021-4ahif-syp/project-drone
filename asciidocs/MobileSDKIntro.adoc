@@ -1,0 +1,31 @@
+= Introduction
+ifndef::imagesdir[:imagesdir: images]
+:sourcedir:
+:icons:
+:sectnums:
+:toc:
+
+== Steuerung
+=== Manuell
+Jemand steuert die Drohne mit Fernsteuerung, während das SDK die Überwachung von Live-Video und Sensordaten ermöglicht.
+
+=== Virtuelle Fernsteuerung
+Die SDK ermöglicht die virtuelle Fernsteuerung, die einen Piloten simulieren.
+
+=== Missions
+Es können definierte Flugwege mit einer Waypoint-Mission ausgeführt werden.
+
+== Kamera
+Mit der Kamera und Gimbelfunktionalität kann man verschiedene Werte wie Belichtung, Kameraposition, Fotoeinstellungen und Videoeinstellungen ändern.
+
+== Live Video
+Man kann eine Live-Übertragung der Hauptkamera.
+
+== Sensor Data
+Die Sensordaten sind über der SDK verfügbar, damit kann man GPS-Position, Kompass, Barometer, Fluggeschwindigkeit und Höhe bis zu 10 Hz messen.
+
+== Download Media
+Videos, welche auf der SD-Karte gespeichert werden, können über der SDK angezeigt und heruntergeladen werden. Es kann sowohl auf Vorschau- als auch auf Vollbilddaten zugegriffen werden.
+
+== Fernbedienung, Batterie, Wireless Verbindung
+Auf die Fernbedienung, die Batterie und die drahtlose Verbindung kann mit der SDK zugegriffen werden. Normalerweise geben die Komponenten nur Information wieder, aber es ist eine gewisse Steuerung ist möglich.

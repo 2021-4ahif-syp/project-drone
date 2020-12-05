@@ -1,0 +1,27 @@
+= Gimbal
+ifndef::imagesdir[:imagesdir: images]
+:sourcedir:
+:icons:
+:sectnums:
+:toc:
+
+Wird benutzt, um eine Kamera/einen Sensor horizontal zu halten, wenn sich die Drohne bewegt. Es hat 3 Motoren, die senkrechte Rotationen steuern (Pitch, Roll, Yaw). Es benutzt dazu gyroskopische Informationen.
+Die Bewegung wird beschränkt durch verbaute Kabel und durch das Sichtgebiet, welches festgelegt wird, um nichts vom Gear der Drohne im Bild zu haben.
+
+== Modes
+
+* FPV (First Person View) [Pitch kontrollierbar, Yaw & Roll fixiert]
+* Yaw Follow [Pitch & Roll kontrollierbar, Yaw folgt der Sichtrichtung der Drohne]
+* Free Mode [alle sind kontrollierbar]
+
+Anpassbare Kalibration, Fine Tune Roll und Balancierung
+
+== Osmo & Ronin-MX Funtionality
+
+SmoothTrack (speed, acceleration, deadband)
+Physical Controller (speed, smoothing, deadband)
+Selfiemode
+Orientational Lock
+SDK hat eine API um Endpoints zu aktivieren (PitchUp/Down, YawnLeft/Right)
+Motor Control (adjustable Stiffness, Strength, Precontrol, GyroFiltering)
+Range Extension (less stops)

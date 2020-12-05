@@ -1,0 +1,20 @@
+= Belichtung
+ifndef::imagesdir[:imagesdir: images]
+:sourcedir:
+:icons:
+:sectnums:
+:toc:
+
+== Infos
+Jeder Pixel des Sensors ist ein Lichtdetektor. Je mehr Licht der Pixel ausgesetzt ist, desto heller ist der Pixel im resultierenden Bild.
+
+== Verschlusszeit
+Wie lange der Verschluss offen bleibt, bestimmt, wie viel Licht rechtzeitig auf den Sensor fällt. Daher erhöht eine langsame Verschlusszeit die Belichtung, während eine kürze Verschlusszeit die Belichtung verringert.
+Bei der langen Verschlusszeit sieht man dafür eher verschwommene Bilder und bei der kuzen Verschlusszeit scharfe Bilder von einem Propeller.
+
+== ISO
+Die Pixelverstärkung wird ISO genannt. Eine Erhöhung der ISO-Empfindlichkeit erhöht die Belichtung, macht aber auch das Rauschen im Bild deutlicher spürbar, was zu körnigen Bildern führt. Normalerweise wird ISO so niedrig wie möglich eingestellt, um ein möglichst sauberes Bild zu erhalten, und wird als letzte Möglichkeit zur Erhöhung der Belichtung verwendet.
+
+== Blende
+Die Blende wird mit Blendenzahlen beschrieben, wobei f/1,4 eine große und f/22 eine kleine Blende ist.
+Bei scharf abgebildeten Merkmalen fällt mehr Licht auf das Objektiv und wird dann zum Pixel umgeleitet. Bei Merkmalen, die unscharf sind, wird das Licht auf mehr Pixel verteilt. Daher erhöht eine größere Blende die Belichtung des Bildes.

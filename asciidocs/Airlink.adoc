@@ -1,0 +1,39 @@
+= AirLink
+ifndef::imagesdir[:imagesdir: images]
+:sourcedir:
+:icons:
+:sectnums:
+:toc:
+
+Drahtlose Verbindung zwischen Srohne, Steuerung, Kameras und Handies.
+
+Arten von möglichen drahtlosen Verbindungen:
+
+* WiFi
+* OcuSync
+* LightBridge
+* Auxiliary
+
+Kabellose Verbindungen sind flexibel, haben aber auch Limitationen (z.B. ein Objekt kommt der Verbindung dazwischen, der Abstand wird zu groß, andere Verbindungen kommen dazwischen).
+
+== WiFi
+
+Steuerungen (remote controllers) sind Access Points, Drohne/Handy sind Clients; manche Drohnen haben selbst einen AP, mit dem sich das Handy verbinden kann
+
+Aspekte: SSID, password, WiFi Frequency Band (nur Osmo)
+
+
+== OcuSync
+
+* schneller als WiFi -> effektivere digitale Kompression und Übertragungstechnologien, kann HD video übertragen, auch geeignet in Umgebungen mit starker Störung durch Radiofrequenz
+* scannen Umgebung automatisch vor Abflug und nimmt Frequenzband mit geringster Störung
+
+== LightBridge
+
+Wird verwendet für robuste Kommunikation in der Luft über lange Strecken in 2.4 GHz, da es mehr Reichweite als WiFi hat (bis zu 5km). Es gibt 8 channels, die man entweder manuell oder
+durch den Radio auswählen kann, um die geringste Störung zu erzielen; außerdem können Livestreams im HDMI oder SDI-Format durchgeführt werden.
+
+
+== Auxiliary
+
+WiFi und Auxiliary werden gleichzeitig zwischen Drohne und Steuerung benutzt. Auxiliary hat eine geringe Bandweite, aber eine sehr robuste Verbindung, die Steuerungsinformation zur Drohne überträgt. Da WiFi eine höhere Bandweite hat und nicht so robust ist, überträgt es Appinformation und Livestreams.

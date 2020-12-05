@@ -1,0 +1,11 @@
+= Flugsteuerung
+ifndef::imagesdir[:imagesdir: images]
+:sourcedir:
+:icons:
+:sectnums:
+:toc:
+
+== Koordinatensysteme
+Die Flugbewegung ist abhängig von der Lage und Orientierung der Koordinatenachsen, die ein Koordinatensystem bilden. Die im DJI Mobile SDK verwendeten Koordinatensysteme sind relativ zur Drohne und relativ zum Boden.
+
+
