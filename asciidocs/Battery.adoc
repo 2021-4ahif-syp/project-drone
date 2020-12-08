@@ -1,9 +1,0 @@
-= SMART BATTERY
-ifndef::imagesdir[:imagesdir: images]
-:sourcedir:
-:icons:
-:sectnums:
-:toc:
-
-== Instantaneous
-Die Restflugdauer kann anhand der verbliebenen Energie, der Gesamtkapazität und der bereits verbrauchten Energie berechnet werden.
